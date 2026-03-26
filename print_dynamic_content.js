@@ -29,3 +29,7 @@ function printDiv(printableArea) {
     printWindow.document.close();
     printWindow.print();
 }
+
+//Create Print Button & Dynamic Action
+//Action: Execute JavaScript Code
+printDiv('printableArea');
